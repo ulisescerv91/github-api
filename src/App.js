@@ -1,9 +1,9 @@
-import './App.css';
-
+import './App.scss';
+import SearchBugs from './Components/SearchBugs'
 function App() {
   return (
     <div className="App">
-      
+      <SearchBugs/>
     </div>
   );
 }
