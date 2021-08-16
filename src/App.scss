@@ -1,11 +1,10 @@
 .App{
-    // background-color: #212429;    
-    background-image: url('https://decimalchain.com/_nuxt/img/final_background.bedbbe2.jpg');
-    background-attachment:scroll;
+    background-color: #222240;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(220.20, 52%, 43%) 0, transparent 55%);
     background-repeat: no-repeat;
     height: 100vh;
-    background-position: center center;
-    background-size: cover;
     display: flex;
     justify-content: center;
     overflow-x: scroll;

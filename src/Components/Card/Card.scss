@@ -1,0 +1,33 @@
+.Card {
+    border: 1px solid red;
+    box-shadow: 8px 8px 24px 0 rgba(9, 13, 20, 0.4), -4px -4px 8px 0 rgba(224, 224, 255, 0.04),0 1px 1px 0 rgba(9, 13, 20, 0.4);
+    border: solid 1px rgba(245, 247, 250, 0.06);
+    background-image: linear-gradient(101deg,rgba(245, 247, 250, 0.12),rgba(245, 247, 250, 0.06) 52%,rgba(245, 247, 250, 0));backdrop-filter: blur(40px);
+    border-radius: 25px;
+    padding: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    &:hover {
+        background-image: linear-gradient(128deg, #0fa, #0bf 53%, #4579f5);        
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    &__container {
+        display: flex;
+        align-items: center;
+        &__info {
+            margin-left: 10px;
+            h4 {
+                line-height: 1.5;
+                color: #fff;
+            }
+            .extra {
+                color:#111;
+                font-size: 12px;
+            }
+        }
+    }
+}
